@@ -33,9 +33,10 @@ BasedOnStyles = Vale, MyStyle
 ```
 
 Each `Vocab` is a single folder (stored at `<StylesPath>/config/vocabularies/<name>/`)
-consisting of two plain-text files&mdash;`accept.txt` and
-`reject.txt`&mdash;that contain one word, phrase, or regular expression per
-line.
+consisting of two plain-text files&mdash;`accept.txt` and `reject.txt`&mdash;that
+contain one word, phrase, or regular expression per line. Vocabularies cannot be defined
+in format-specific settings.  Use multiple config files to use different vocabularies
+for different formats.
 
 The effects of using a custom `Vocab` are as follows:
 
